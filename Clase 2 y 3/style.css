@@ -1,0 +1,24 @@
+
+/* Usar una sola forma de incorporar css en un archivo css */ 
+/* Para la etiquetas se usa llaves "{ }"  */
+h1 {
+    background-color: rgb(25, 52, 172);
+}
+p{
+
+    color: #24a0d1ec;
+}
+
+/*Para las class va punto " . " */
+
+/*Para los ID se usa numeral " # " */
+
+/* Colores primarios: Rojo verde zul
+
+Hexadecimal ---> 0-9 A-F y transparencia le agrego dos digitos mas. Cuando mas cerca del 0 esten mas transparente son
+Ej; #AA543F
+rgb 0 - 255
+predeterminado  de css
+
+Contrast ratio
+*/

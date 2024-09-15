@@ -1,0 +1,73 @@
+
+/* Posicionamiento de elementos 
+POSITION - FLEXBOX - GRID 
+
+POSITION:
+- Si necesitas superponer es el indicado 
+- Se puede utilizar en cualquier elemento 
+- El unico que puede ubicar exacto un elemento
+- Cada elmento ubicacion exacta 
+- Es particularmente para dejar elementos ubicados permanentemente  
+
+*Absolute: 
+- Toma de referencia el primer elemento padre relativo que encuentre. En caso que no encuentre usa el body de 
+referencia. 
+- Para que no tome el body se puede usar un contenedor y colocrle relative para que use esa referncia desde ahi 
+por ej:  una tarjeta o contenedor
+
+*Sticky 
+- a diferencia de Fixed el sticky no se superpone y el elemento es estatico hasta que se acaba la pantalla y empeiza a seguir el scroll
+    
+z-index: numero entero que indica el orden para la superposicion. Mientras mas grande el numero mas se va a ver
+*/
+
+.padre {
+    background-color: rgb(115, 115, 185);
+    padding-left: 20%;
+
+}
+
+.cubo {
+    width: 150px;   
+    height: 150px;
+    background-color: brown;
+    border: 2px solid orange;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.static {
+    position: static; /*Valor por defecto */
+}
+
+.relative {
+    background-color: green;
+    position: relative; /* queda en relleno el lugar donde se inicio por ende nose puede posicionar nada en ese lugar*/
+    left: 200px; /*Usamos releno izquierdo para over a la derecha */
+    top: 170px;}
+
+.absolute {
+    background-color: violet;
+    position: absolute; /*Toma de referencia el primer elemento padre relativo que encuentre. En caso que no encuentre usa el body de referencia */
+}
+
+.fixed {
+    background-color: orange;
+    position: fixed; /* Deja fijo al elemento en la pantalla y toma de referencia el contorno de la pantalla*/
+    bottom: 0;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+
+}
+
+.navegacion {
+    background-color: palevioletred;
+    position: sticky;
+    top: 0;
+    padding: 30px;
+
+}
+

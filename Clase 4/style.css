@@ -1,0 +1,77 @@
+
+#subtitulo {
+    background-color: rgb(240, 68, 96);
+    padding: 30px ;
+    margin: 30px ; 
+    text-align: center ; /*donde se ubica el texto en la caja */ 
+    text-shadow: 2px 2px 5px black,
+                2px 5px rgb(119, 128, 0)
+    ; /* sombra color y difuminado  */
+     /* valor positivo der abajo- val negtv arrbia e izquierda */
+}
+p {
+    background-color: aqua;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+/*Modelo de caja 
+top (arriba) bottom ( abajo) left (izquerda) rigth(derecha)
+Etiquetas contienen grandes cajas 
+Estas cajas tienen propiedades que se pueden modificar :
+relleno: Padding entre el rectangulo y el contenido 
+margen: distancia entre etiquetas
+Border : contorno
+
+Estas propiedades usan unidades de medidas : px - % - 
+EL valor se aplica en todos los lados 
+Si queremos aplicar distintos valores de manera personalizada el sentido comienza desde arriba
+y continua en sentido horario 
+*/
+
+h1 {
+    margin-top: 50px;
+    background-color: pink;
+    border: 3px goldenrod solid ; /*-> Borde: tamaño, color, estilo*/
+    border-radius: 5% ;
+    width: 170px ;
+    height: 10%;
+    text-decoration: underline;  /* -> underline(subrayado) - lin-through (tachado) - overline (subrayado arriba) */
+    font-family:"nerko one" ; 
+}
+a{
+    padding: 10px; /*-> relleno*/
+    background-color: rgb(209, 123, 123); 
+    margin-bottom: 5px; /* -> margen inferior */
+    border-radius: 50px; /*-> radio circular*/
+    width: 500px
+
+}
+/*
+Border-radius  propiedad para el redondeo de los bordes
+width para recortar el bloque
+*/
+.ancla {
+    font-size: 13px; /* -> tamaño*/
+    text-decoration: none; /*subrayado*/
+    font-weight: 400;
+    font-family:fantasy; /*-> Tipo de letra */
+}
+
+/* Propiedades de topografias 
+font = fuente 
+font-family es para cambiar el tipo de letra 
+    Para traer mas variedad se accede a google fonts y extraemos la elegida y la pegamos en el heade de html 
+-weight : peso de la tipografia o grueso
+text = texto
+tex-transform: Mayusculia y minuscula
+
+letter-spacing: espacio de cada letra 
+
+unidades : px o 
+    em = tamaño del padre y lo multiplica por el resultado ej: si el padre mide 20px. 2em queda en 40px 
+    rem = toma el tamaño del elemento RAIZ - html (16px)
+
+
+*/

@@ -1,0 +1,22 @@
+
+/* Usando display 
+display none: sirve para ocultar el elemento y se usa cuando hay un enu deslegable, pop up,  entre otros
+
+
+
+*/
+
+h1 {
+    background-color: yellow;
+    display: inline-block;
+}
+
+.tarjeta {
+    border: 3px solid black;
+    width: 250px;
+}
+
+.img-tarjeta {
+    width: 250px;
+    display: flexbox;
+}
