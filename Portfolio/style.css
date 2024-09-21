@@ -1,0 +1,7 @@
+h1{
+    display: inline;
+}
+
+.nav{
+    grid-template-columns: 10px 
+}
