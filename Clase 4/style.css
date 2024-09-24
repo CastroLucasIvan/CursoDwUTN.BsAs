@@ -31,9 +31,10 @@ y continua en sentido horario
 */
 
 h1 {
+    padding: 40px;
     margin-top: 50px;
     background-color: pink;
-    border: 3px goldenrod solid ; /*-> Borde: tamaño, color, estilo*/
+    border: 3px rgb(72, 32, 218) solid ; /*-> Borde: tamaño, color, estilo*/
     border-radius: 5% ;
     width: 170px ;
     height: 10%;
