@@ -1,23 +1,20 @@
 
 body{
-    background-color: black;
+    background-color:white ;
     padding: 30px;
-
 }
 
 .barra{
     display: grid;
-    background-color: rgb(19, 209, 200);
+    border-bottom: SOLID 0.25px rgb(19, 209, 200);
     grid-template-columns: auto 1fr;
     align-items: center ;
-    border-radius: 30px;
-    
 }
 
 .logo{
     margin: 0.5%;
     font-size: 50px;
-    color: black;
+    color: rgb(19, 209, 200);
     padding-left: 50px;
     letter-spacing:5px;
     font-family: bitter ;
@@ -36,16 +33,48 @@ body{
 }
 
 li > a {
-    color: black;
+    color: rgb(19, 209, 200);
     text-decoration: none;
 }
 a:hover{
-    border-bottom: 7px solid rgb(240, 243, 89);}
+    border-bottom: 1px solid rgb(19, 209, 200);
+
+}
 
 .presentacion {    
+    background-color: rgb(19, 209, 200);;
     display: grid;
-    grid-template-columns: 4fr;
-    padding: 100px 0px 0px 50px;
+    grid-template-columns: 1fr 1fr 1fr 2fr ;
+    align-items: center;
+    margin-top: 300px;
+    border: solid 1px rgb(19, 209, 200);
+    border-radius: 250px;
     font-size: 50px;
     color: brown;
+
 }
+.presentacion > .apellido  {
+    margin: 0%;
+    font-size: 50px;
+    bottom: 150px;
+    align-items: center;
+
+}
+    
+.presentacion > .Yo {
+    /* justify-self: center ; */
+}
+
+p {
+    width: 600px;
+}
+.Yo {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-self: center ;
+
+
+}
+
