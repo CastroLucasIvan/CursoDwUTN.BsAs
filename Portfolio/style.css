@@ -42,10 +42,14 @@ a:hover{
 }
 
 .presentacion {    
-    background-color: rgb(19, 209, 200);;
+    /* background-color: rgb(19, 209, 200);; */
+    margin: 100px;
+    padding: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr ;
+    grid-template-columns: 1.5fr 1.5fr 0fr 2fr ;
+    grid-template-rows: 400px 400px;
     align-items: center;
+    justify-items: center;
     margin-top: 300px;
     border: solid 1px rgb(19, 209, 200);
     border-radius: 250px;
@@ -53,28 +57,39 @@ a:hover{
     color: brown;
 
 }
-.presentacion > .apellido  {
+.presentacion>.apellido  {
     margin: 0%;
-    font-size: 50px;
-    bottom: 150px;
-    align-items: center;
+    font-size: 200px;
+    text-align: center;
 
 }
-    
-.presentacion > .Yo {
-    /* justify-self: center ; */
+
+.presentacion > .nombre {
+    font-size: 200px;
+    margin: 0%;
+    text-align: start;
+
 }
 
-p {
-    width: 600px;
+.presentacion > .dev {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    font-size: 100px;
+    /* text-align: center; */
+    margin: 0% ;
+    width: 1100px;
+    /* position: relative;
+    top: 0%; */
 }
+
 .Yo {
     width: 800px;
     height: 800px;
     border-radius: 50%;
     object-fit: cover;
     justify-self: center ;
-
-
+    grid-column: 4; /* Columna 4 */
+    grid-row: 1 / 3 ; /* Ocupa ambas filas */
+    
 }
 
