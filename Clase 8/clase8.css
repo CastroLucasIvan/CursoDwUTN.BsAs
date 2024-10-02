@@ -1,0 +1,21 @@
+
+
+/*Breakpoin:t a partir del tal ancho de pantalla el diseño va cambiar */
+/*MediaQuery Todas las propiedades que se van a modificar y dentro del Media tambien se va a encontrar el breakpoint*/
+
+/* Se recomienda escribirlo al ultimo del codigo */ 
+
+/*Se coloca MAx-width ya que lo creamos para que se vea en pc y no en telefono de ser al reves deberiamos usar Min-width*/
+
+/*Para celulares primero se llama mobile first*/
+
+/*PAra iconos icons8 o boostrap icons*/
+
+@media(max-width:800px) { /*--> Para promedio tablet*/
+    
+}
+@media(min-width: 500px) { /*--> Para promedio celular*/
+
+}
+
+/*En el Footer colocar el Form*/
