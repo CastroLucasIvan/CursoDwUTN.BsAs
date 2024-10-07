@@ -99,11 +99,11 @@ a:hover{
     border-radius: 250px;
     margin: 100px;
     padding: 100px;
-    display: grid;
     color: brown;
-    font-size: 70px;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    font-size: 70px; 
 
-}
+} 
+
+
+
 
