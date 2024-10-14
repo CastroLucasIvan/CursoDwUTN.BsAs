@@ -1,7 +1,14 @@
 
 body {
 
-    background-color: #f8f9fa; /* Color de fondo para visibilidad */
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.yo {
+    /* width: 100px;
+    height: 100px;   */
+    /* border-radius: 50%;
+    object-fit: cover; */
 }

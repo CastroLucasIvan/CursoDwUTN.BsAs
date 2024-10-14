@@ -1,8 +1,8 @@
 
 #subtitulo {
     background-color: rgb(240, 68, 96);
-    padding: 30px ;
-    margin: 30px ; 
+    padding: 30px ; /*Como se mueve el contenido dentro de la caja*/
+    margin: 30px ; /*Margenes de cada caja o distancia entre cajas de etiquetas*/
     text-align: center ; /*donde se ubica el texto en la caja */ 
     text-shadow: 2px 2px 5px black,
                 2px 5px rgb(119, 128, 0)
@@ -47,7 +47,7 @@ a{
     margin-bottom: 5px; /* -> margen inferior */
     border-radius: 50px; /*-> radio circular*/
     width: 500px
-
+    
 }
 /*
 Border-radius  propiedad para el redondeo de los bordes
