@@ -10,14 +10,14 @@
   <title>Document</title>
 </head>
 
-<body class="text-bg-dark my-3"> 
+<body class="text-bg-white my-3"> 
 
   <header>
 
-    <nav class="navbar navbar-expand-sm border-bottom border-primary p-3">
+    <nav class="navbar navbar-expand-sm border-bottom border-dark p-3">
 
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand text-" href="#">Portfolio</a>
       </div>
 
       <div class="container-fluid">
@@ -37,32 +37,37 @@
 
   </header>
 
-  <section class="container mt-4 border-bottom border-primary p-3" >  
-    <div class="row">
-        <div class="col d-flex align-items-center justify-content-evenly mb-5"> 
-            <div class="col-4">
-                <h1>Castro Lucas</h1>
-                <h2>Developer Full Stack</h2>
-            </div>
-            <img class="col-3" src="./Imagenes/Yo3.jpeg" alt="Imagen de perfil">
+  <section class="container-fluid mt-4 border-bottom border-dark p-3">  
+    <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6 text-sm-center text-md-start"> 
+            <h1>Castro Lucas</h1>
+            <h2>Developer Full Stack</h2>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img class="col-sm-4 col-md-6 col-xl-8" src="./Imagenes/Yo3.jpeg" alt="Imagen de perfil">
         </div>
     </div>
-  </section>
+</section>
+
   
-  <section class="container-fluid mt-4 border-bottom border-primary p-3">
+  <section class="container-fluid mt-4 border-bottom border-dark p-3">
     <div class="row ">
-      <h3 class=" fs-2 text-center mb-5">Informacion Personal</h3>
+
+      <h3 class=" fs-2 text-sm-center mb-5">Informacion Personal</h3>
+
       <div class=" col d-flex mb-5">
-      <div class=" col-6 d-flex justify-content-around ">
+
+      <div class=" col-sm-6 d-flex justify-content-evenly ">
        <ul class=" fs-5 list-unstyled ms-4 mb-0 ">
         <li class=" mb-2"><strong>Nombre:</strong> Lucas</li>
         <li class=" mb-2"><strong>Domicilio:</strong> Carcano 3477</li>
         <li class=" mb-2"><strong>Nacionalidad:</strong> Argentino</li>
         <li class=" mb-2"><strong>TEL:</strong> 351897756</li>
         <li class=" mb-2"><strong>Mail:</strong> Castrolucasivan@gmail.com</li>
-        </ul>
+      -.  </ul>
       </div>
-    <div class="  col-6 d-flex justify-content-evenly ">
+
+    <div class="col-sm-6 d-flex justify-content-evenly ">
       <ul class=" fs-5 list-unstyled ms-4 mb-0 ">
         <li class=" mb-2"><strong>Apellido:</strong> Castro</li>
         <li class=" mb-2"><strong>Ciudad:</strong> Cordoba</li>
@@ -74,7 +79,7 @@
     </div>
   </section>
  
-  <section class="container-fluid mt-4 border-bottom border-primary p-3">
+  <section class="container-fluid mt-4 border-bottom border-dark p-3">
    <div class="row align-items-start"> 
       <h3 class="fs-2 text-center mb-5">Sobre Mi</h3>
       <img class="yo col-3" src="./Imagenes/Yo3.jpeg" alt="Imagen de perfil">
@@ -89,32 +94,32 @@
   </section>
 
 
-  <section class="container-fluid mt-4 border-bottom border-primary p-3">
+  <section class="container-fluid mt-4 border-bottom border-dark p-3">
     <div class="row g-5 mb-3">
         <h3 class="fs-2 text-center text-align-center mb-4">My Skill</h3>
       <div class="col-4  d-flex flex-column align-items-center  ">
         <img src="./Imagenes/Skills/icons8-html-96.png" alt="">
-        <p>25%</p>
+        <p class="fw-semibold fs-5">85%</p>
       </div>
       <div class="col-4 d-flex flex-column align-items-center">
           <img src="./Imagenes/Skills/icons8-css-96.png" alt="">
-          <p>45%</p>
+          <p class="fw-semibold fs-5">73%</p>
       </div>
       <div class="col-4 d-flex flex-column align-items-center">
           <img src="./Imagenes/Skills/icons8-js-96.png" alt="">
-          <p>45%</p>
+          <p class="fw-semibold fs-5">79%</p>
       </div>
       <div class="col-4 d-flex flex-column align-items-center">
         <img src="./Imagenes/Skills/icons8-bootstrap-96.png" alt="">
-        <p>45%</p>
+        <p class="fw-semibold fs-5">65%</p>
       </div>
       <div class="col-4 d-flex flex-column align-items-center">
         <img src="./Imagenes/Skills/icons8-reaccionar-nativo-96.png" alt="">
-        <p>45%</p>
+        <p class="fw-semibold fs-5">55%</p>
       </div>
       <div class="col-4 d-flex flex-column align-items-center">
         <img src="./Imagenes/Skills/icons8-angular-96.png" alt="">
-        <p>45%</p>
+        <p class="fw-semibold fs-5">45%</p>
       </div>
     </div>
   </section>
@@ -127,7 +132,7 @@
 
     <div class="col">
 
-       <div class="row mb-4 fw-normal ">
+       <div class="row mb-4 fw-semibold ">
 
         <div class=" d-flex justify-content-center align-items-center">
           <div class="col-2">
@@ -135,10 +140,10 @@
           </div>
           <div class="col-6">
             <ul class="mb-0">
-              <li>Curso: En curso</li>
-              <li>Titulo: Front End Developer</li>
-              <li>Institucion: UTN BsAs</li>
-              <li>Fecha: 2024-Actualidad</li>
+              <li><strong>Curso:</strong> En curso</li>
+              <li><strong>Titulo:</strong></strong> Front End Developer</li>
+              <li><strong>Institucion:</strong></strong> UTN BsAs</li>
+              <li><strong>Fecha:</strong></strong> 2024-Actualidad</li>
             </ul>
           </div>
         </div>
@@ -151,26 +156,26 @@
           </div>
           <div class="col-6">
             <ul class="mb-0">
-              <li>Cuso: Completo</li>
-              <li>Titulo: Ingles A1</li>
-              <li>Institucion: UNC Cba</li>
-              <li>Fecha: 2023</li>
+              <li><strong>Cuso:</strong> Completo</li>
+              <li><strong>Titulo:</strong> Ingles A1</li>
+              <li><strong>Institucion:</strong>UNC Cba</li>
+              <li><strong>Fecha:</strong> 2023</li>
             </ul>
           </div>
         </div>
       </div>
       
-      <div class="row mb-4 fw-medium text-dark">
+      <div class="row mb-4 fw-semibold text-dark">
         <div class="d-flex justify-content-center align-items-center">
           <div class="col-2">
         <img src="./Imagenes/Educacion/educacion.png" alt="">
           </div>
         <div class="col-6">  
           <ul class="mb-0">
-            <li>Terciario: Incompleto</li>
-            <li>Titulo: Programacion</li>
-            <li>Fecha: 2019-2021</li>
-            <li>Institucion: ITSC</li>
+            <li><strong>Terciario:</strong> Incompleto</li>
+            <li><strong>Titulo:</strong> Programacion</li>
+            <li><strong>Fecha:</strong> 2019-2021</li>
+            <li><strong>Institucion:</strong> ITSC</li>
           </ul>
         </div>
         </div>  
@@ -178,46 +183,46 @@
     </div>
 
     <div class="col">
-      <div class="row mb-4 fw-medium text-dark">
+      <div class="row mb-4 fw-semibold text-dark">
         <div class="d-flex justify-content-center align-items-center">
           <div class="col-2">
             <img src="./Imagenes/Trabajo/Redes.png" alt="">
           </div>
           <div class="col-6">
             <ul class="mb-0">
-              <li>Trabajo: Administrador de Redes</li>
-              <li>Lugar: Callcenter Apex America</li>
-              <li>Fecha: 2023-Actualidad</li>
+              <li><strong>Trabajo:</strong> Administrador de Redes</li>
+              <li><strong>Lugar:</strong> Callcenter Apex America</li>
+              <li><strong>Fecha:</strong> 2023-Actualidad</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="row mb-4 fw-semibold  ">
+      <div class="row mb-4 fw-semibold">
         <div class="d-flex justify-content-center align-items-center">
           <div class="col-2">
             <img src="./Imagenes/Trabajo/Soporte.png" alt="">
           </div>
           <div class="col-6">
             <ul class="mb-0">
-              <li>Trabajo: Soporte IT</li>
-              <li>Lugar: Callcenter Apex Ameriaca</li>
-              <li>Fecha: 2019 - 2023</li>
+              <li><strong class="text-dark">Trabajo:</strong> Soporte IT</li>
+              <li><strong class="text-dark">Lugar:</strong> Callcenter Apex Ameriaca</li>
+              <li><strong class="text-dark">Fecha:</strong> 2019 - 2023</li>
             </ul>
           </div>
         </div> 
       </div> 
 
-      <div class="row mb-4 fw-medium text-dark ">
+      <div class="row mb-4 fw-semibold">
         <div class="d-flex justify-content-center align-items-center">
           <div class="col-2">
             <img src="./Imagenes/Trabajo/Mante.png" alt="">
           </div>
           <div class="col-6 d-flex align-items-center">
             <ul class="mb-0">
-              <li>Trabajo: Mantenimineto Edilicia</li>
-              <li>Lugar: Hospital Allende</li>
-              <li>Fecha: 2017-2019</li>
+              <li><strong class=" text-dark ">Trabajo:</strong> Mantenimineto Edilicia</li>
+              <li><strong class=" text-dark ">Lugar:</strong> Hospital Allende</li>
+              <li><strong class=" text-dark ">Fecha:</strong> 2017-2019</li>
             </ul>
           </div>
         </div>
