@@ -3,12 +3,8 @@ body {
 
     padding-left: 5%;
     padding-right: 5%;
-
+    background-image: url('./Imagenes/color.jfif'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center
 }
 
-.yo {
-    /* width: 100px;
-    height: 100px;   */
-    /* border-radius: 50%;
-    object-fit: cover; */
-}
