@@ -3,9 +3,51 @@ body {
 
     padding-left: 5%;
     padding-right: 5%;
-    background-image: url('./Imagenes/perga.jpg'); /* Ruta de la imagen de fondo */
-    background-size:cover; /* Ajusta la imagen para cubrir todo el contenedor */ 
+    background-image: url('./Imagenes/perga.jpg'); 
+    background-size:cover; 
     background-attachment:fixed;
     background-position: center;
 }
+
+@media (max-width: 600px){
+    .titulos {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+    .yo{
+        width: 50%;
+        height: 50%;
+
+    }
+}
+
+    @media (max-width: 600px)
+    {
+        .info{
+            text-align: center;
+        }
+
+        .cajaInfo{
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap; 
+        }
+        .izq {
+            
+            justify-content: center; 
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+        .der {
+            
+            justify-content: center; 
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    }
 
