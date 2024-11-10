@@ -32,7 +32,7 @@ console.log(true)
 // Operadores : 
 // Aritmeticas
     // Calculos : +, -, *, /
-    // Calculos complejos / Calculadora cientifica: cos, log etc
+    // Calculos complejos / Calculadora cientifica: cos, log etc    
     Math.PI
 // Comparacion: 
 
