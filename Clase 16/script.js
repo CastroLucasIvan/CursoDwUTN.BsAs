@@ -1,3 +1,5 @@
+
+
 //arrays  grupo de datos
 // para alterar lista metodos: 
 // length -> cantidad de datos que contiene una lista
@@ -5,7 +7,7 @@
 // pop() - shift() -> quitar elemento (ultimo o primero)
 // splice() -> Modificar o agregar elementos 
 // slice() -> Copiar una parte de la lista 
-
+// indexOf() ->acceder al indice de una lista
 // acceder a un dato de la lista arrays[indice]
 // Como acceder al indice de una lista -> array.indexOf(dato)
 

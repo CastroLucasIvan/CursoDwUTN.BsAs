@@ -82,6 +82,7 @@ while(nuevoNobre != "fin"){
 }
 console.log(nombres)
 
+
 //---------------------Do Whilw (Ejecuta la accion aunque sea una vez)--------------------
 // Primero acciona y despues ejecuta la condicion
 
@@ -104,3 +105,9 @@ do{
     gananciaDia=gananciaDia+venta
    })
     
+   // forEach() Recorren toda la lista y con eso podemos pedirle que realize alguna accion como generar un acumulador o ir concatenando cada item del array
+   // map() -> realiza un array nuevo con todos los resultados y tiene un return
+   let dia =["Lunes","Martes","Miercoles"]
+   let nvoDia=dia.map((dia)=>{return dia+" de 8 a 12"})
+   // find() -> trae a un item espesifico del array y el primero que cumpla con la condicion pedida
+   // filter()-> Filtra los items que cumplan con la condicion solicitada y traera un array con todas esas condiciones juntas
