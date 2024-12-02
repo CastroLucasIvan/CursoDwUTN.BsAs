@@ -1,0 +1,6 @@
+
+for | for-of | while | do-while
+forEach() Recorre toda la lista
+map() realiza un array nuevo con todos los resultados y tiene un return
+find() -> trae a un item espesifico del array y el primero que cumpla con la condicion pedida
+filter()-> Filtra los items que cumplan con la condicion solicitada y traera un array con todas esas condiciones juntas

@@ -47,7 +47,7 @@ for(let indice=0;indice<listaProdu.length && estaEnLista== false;indice++){
      }
  }
 
- //------------------------ for off (excvlusivo para listas)---------------------
+ //------------------------ for of (excvlusivo para listas)---------------------
  // No tiene freno 
 
  for(let item of listaProdu){
@@ -83,8 +83,8 @@ while(nuevoNobre != "fin"){
 console.log(nombres)
 
 
-//---------------------Do Whilw (Ejecuta la accion aunque sea una vez)--------------------
-// Primero acciona y despues ejecuta la condicion
+//---------------------Do Whilw (Primero acciona y despues ejecuta la condicion)--------------------
+
 
 do{
     nombres.push(nuevoNobre)

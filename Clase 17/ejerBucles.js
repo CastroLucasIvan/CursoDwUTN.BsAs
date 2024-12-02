@@ -10,11 +10,53 @@ registro” y sacarlo de la lista;
 registrado” y agregue dicho país a la lista.
 
 */
-let paises=[]
 
 
+let paises=["Argentina","Peru","Bolivia","Italia","Australia"]
 
-function nombrePais(){
+function nombrePais1() {
     let paisNuevo = prompt ("Ingrese nombre de pais") 
+    let paisEncontrado = false;
+    for(let pais of paises) {
 
+       if( paisNuevo === pais ) {
+         paisEncontrado = true 
+        }
+    }
+if (paisEncontrado === true) {
+    alert("Pais registrado, se elimina de la lista")
+    let indicePais = paises.indexOf(paisNuevo) // ubico el indice del pais
+    paises.splice(indicePais,1)// busco el pais y lo saco 
+} else {
+    alert("Pais NO registrado, se agrega a la lista")
+    paises.push(paisNuevo)
 }
+}
+
+nombrePais1()
+console.log(paises)
+
+// -------------- alternativa con find() ------------------------
+/* function nombrePais2(){ 
+let paisEncontrado= paises.find((pais)=>{return paisNuevo === pais});
+
+}; */
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+/* Hacer una función que al ingresar el día de la semana y el estado del tiempo (el cual puede ser lluvioso o despejado) nos devuelva:
+
+Si es un sábado lluvioso, el mensaje "Me quedo en casa".
+Sino, mostrar el mensaje "Salgo a pasear". */
+
+const evaluarClima=()=>{
+    let dia = prompt("Indique el dia de semana")
+    let tiempo=prompt("Indique si el clima es lluvioso o despejado")
+    dia === "Sabado" && tiempo === "Lluvioso"? console.log("Me quedo en casa"): console.log("Salgo a pasear")
+}
+
+evaluarClima()

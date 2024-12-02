@@ -12,7 +12,8 @@ los productos que necesite y muestre por consola la lista completa.
 
 /*while (producto!=="fin"){
     listaProdu.push(producto)
-    console.log("Ingrese otro producto o fin para terminar")
+    console.log("Ingrese otro producto o fin para terminar") --> se redefine el valor del producto para que no sea un bucle infinito ya que la variable 
+    producto valdra siempre lo mismo
 }
 console.log(listaProdu);
 */
